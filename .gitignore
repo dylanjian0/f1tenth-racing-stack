@@ -1,21 +1,4 @@
-# 1. Ignore everything
-*
-
-# 2. Don't ignore the .gitignore file itself
-!.gitignore
-
-# 3. Allow these directories to exist in the repository
-!gap_node/
-!safety_node/
-!wall_node/
-
-# 4. Within those directories, ignore everything by default
-gap_node/*
-safety_node/*
-wall_node/*
-
-# 5. But allow these specific Python files
-!gap_node/gap_node/gap.py
-!safety_node/safety_node/safety.py
-!wall_node/wall_node/wall.py
-!README.md
+build/
+install/
+log/
+__pycache__/
